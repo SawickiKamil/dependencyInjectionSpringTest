@@ -1,5 +1,8 @@
 package com.kamil.depependency.services;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GreetingRepositoryImpl implements GreetingRepository{
     @Override
     public String getEnglishGreeting() {
@@ -8,13 +11,13 @@ public class GreetingRepositoryImpl implements GreetingRepository{
 
     @Override
     public String getSpanishGreeting() {
-        return "Servicio de Saludo Primario";
+        return "Servicio de Saludo Primario -Spanish";
     }
 
     @Override
     public String getGermanGreeting() {
 
-        return "Primärer Grußdienst";
+        return "Primärer Grußdienst- German";
 
     }
 }

@@ -1,9 +1,9 @@
 package com.kamil.depependency.services;
 
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
+@Component
 public interface GreetingService {
 
     String sayGreeting();
